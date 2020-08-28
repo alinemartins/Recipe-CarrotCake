@@ -9,7 +9,7 @@
     <meta name="description" content="The recipes my mother use to make when I was growing up">
 
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
@@ -18,43 +18,116 @@
   <body>
     
     <div class="container">
-        <div>
-          <h1>Family Recipes</h1>  
+
+        <nav class="navbar navbar-light navbar-expand-lg">
+            <a href="#" class="navbar-brand">Family Recipes</a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav">
+                    <li class="navbar-item">
+                        <a href="#" class="nav-link">Home</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="#" class="nav-link">Desserts</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="#" class="nav-link">Christmas recipes</a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </nav>
+        
+    
+        <div class="row mb-5">
+            <div class="card-deck">
+                <div class="col-lg-4">
+                    <div class="card" style="width:350px">
+                        <img class="card-img-top" src="img/tomato.jpg" alt="Card image">
+                        <div class="card-body">
+                            <h4 class="card-title">Carrot Cake</h4>
+                            <p class="card-text">The one and only, scandalicious, heavenly, scrumptious, fluffy carrot cake.</p>
+                            <a href="#" class="btn btn-primary stretched-link">Instructions</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-deck">
+                <div class="col-lg-4">
+                    <div class="card" style="width:350px">
+                        <img class="card-img-top" src="img/tomato.jpg" alt="Card image">
+                        <div class="card-body">
+                            <h4 class="card-title">Recipe</h4>
+                            <p class="card-text">Some example text.</p>
+                            <a href="#" class="btn btn-primary stretched-link">Instructions</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-deck">
+                <div class="col-lg-4">
+                    <div class="card" style="width:350px">
+                        <img class="card-img-top" src="img/tomato.jpg" alt="Card image">
+                        <div class="card-body">
+                            <h4 class="card-title">Recipe</h4>
+                            <p class="card-text">Some example text.</p>
+                            <a href="#" class="btn btn-primary stretched-link">Instructions</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="row">
-            <div class="col-4">
-                <img src="img/tomato.jpg" class="img-fluid" alt="Responsive image">
-                
+
+        <div class="row mb-5">
+            <div class="card-deck">
+                <div class="col-lg-4">
+                    <div class="card" style="width:350px">
+                        <img class="card-img-top" src="img/tomato.jpg" alt="Card image">
+                        <div class="card-body">
+                            <h4 class="card-title">Recipe</h4>
+                            <p class="card-text">Some example text.</p>
+                            <a href="#" class="btn btn-primary stretched-link">Instructions</a>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col-4">
-                <img src="img/tomato.jpg" class="img-fluid" alt="Responsive image">
+            <div class="card-deck">
+                <div class="col-lg-4">
+                    <div class="card" style="width:350px">
+                        <img class="card-img-top" src="img/tomato.jpg" alt="Card image">
+                        <div class="card-body">
+                            <h4 class="card-title">Recipe</h4>
+                            <p class="card-text">Some example text.</p>
+                            <a href="#" class="btn btn-primary stretched-link">Instructions</a>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col-4">
-                <img src="img/tomato.jpg" class="img-fluid" alt="Responsive image">
+            <div class="card-deck">
+                <div class="col-lg-4">
+                    <div class="card" style="width:350px">
+                        <img class="card-img-top" src="img/tomato.jpg" alt="Card image">
+                        <div class="card-body">
+                            <h4 class="card-title">Recipe</h4>
+                            <p class="card-text">Some example text.</p>
+                            <a href="#" class="btn btn-primary stretched-link">Instructions</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-4">
-                <img src="img/tomato.jpg" class="img-fluid" alt="Responsive image">
-            </div>
-            <div class="col-4">
-                <img src="img/tomato.jpg" class="img-fluid" alt="Responsive image">
-            </div>
-            <div class="col-4">
-                <img src="img/tomato.jpg" class="img-fluid" alt="Responsive image">
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-4">
-                <img src="img/tomato.jpg" class="img-fluid" alt="Responsive image">
-            </div>
-            <div class="col-4">
-                <img src="img/tomato.jpg" class="img-fluid" alt="Responsive image">
-            </div>
-            <div class="col-4">
-                <img src="img/tomato.jpg" class="img-fluid" alt="Responsive image">
-            </div>
-        </div>
+        
+       
+
+        <ul class="pagination justify-content-center" style="margin:20px 0">
+            <li class="page-item disabled"><a class="page-link" href="#">Previous</a></li>
+            <li class="page-item active"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">Next</a></li>
+          </ul>
 
     </div>
 
