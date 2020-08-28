@@ -1,12 +1,3 @@
-header {
-    background: #f8c630;
-}
-
-section {
-    background: #e54f6d;
-}
-
-.recipeTitle {
-    border: solid;
-    border-color: white;
+body {
+    font-family: 'Comfortaa', cursive;
 }
